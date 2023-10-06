@@ -1,0 +1,44 @@
+/* Apply a background color and style to the navigation bar */
+nav {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding around the navigation bar */
+}
+
+
+/* Style the navigation links */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display the list items horizontally */
+    margin-right: 20px; /* Add spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+    color: #ff6600; /* Change to a different color on hover */
+}
+
+/* Style the logo */
+nav a.logo {
+    font-size: 24px; /* Font size for the logo */
+    font-weight: bold; /* Bold text */
+    text-decoration: none; /* Remove underline from the logo */
+    color: #fff; /* Text color */
+}
+
+/* Center the logo vertically in the navigation bar */
+nav a.logo img {
+    vertical-align: middle;
+}
